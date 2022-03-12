@@ -1,0 +1,53 @@
+<Project>
+
+  <ItemGroup>
+  
+    <PackageReference Include="dapper" version="2.0.30" />
+    <PackageReference Include="entityframework" version="6.3.0" />
+    <PackageReference Include="entityframework" version="6.3.0" />
+    
+    <PackageReference Include="lazycache" version="2.4.0" />
+    <PackageReference Include="log4net" version="2.0.8" />
+    <PackageReference Include="microsoft.azure.keyvault" version="2.3.2" />
+    <PackageReference Include="microsoft.azure.keyvault.webkey" version="2.0.7" />
+    <PackageReference Include="microsoft.azure.services.appauthentication" version="1.0.3" />
+
+    <!-- ref -->
+    <PackageReference Include="microsoft.data.sqlclient" version="1.1.1" />
+    <PackageReference Include="microsoft.extensions.caching.abstractions" version="2.1.0" />
+    <PackageReference Include="microsoft.extensions.caching.memory" version="2.1.0" />
+    <PackageReference Include="microsoft.extensions.configuration.abstractions" version="3.1.22" />
+    <PackageReference Include="microsoft.extensions.configuration" version="3.1.22" />
+    <PackageReference Include="microsoft.extensions.dependencyinjection.abstractions" version="2.1.0" />
+    <PackageReference Include="microsoft.extensions.options" version="2.1.0" />
+    <PackageReference Include="microsoft.extensions.primitives" version="3.1.22" />
+    <PackageReference Include="microsoft.identitymodel.clients.activedirectory" version="3.14.2" />
+    <PackageReference Include="microsoft.identitymodel.clients.activedirectory" version="3.14.2" />
+    <PackageReference Include="microsoft.identitymodel.jsonwebtokens" version="5.5.0" />
+    <PackageReference Include="microsoft.identitymodel.logging" version="5.5.0" />
+    <PackageReference Include="microsoft.identitymodel.protocols" version="5.5.0" />
+    <PackageReference Include="microsoft.identitymodel.protocols.openidconnect" version="5.5.0" />
+    <PackageReference Include="microsoft.identitymodel.tokens" version="5.5.0" />
+    <PackageReference Include="microsoft.rest.clientruntime.azure" version="3.3.7" />
+    <PackageReference Include="microsoft.rest.clientruntime" version="2.3.8" />
+    <PackageReference Include="newtonsoft.json" version="10.0.1" />
+
+    <!-- ref -->
+    <PackageReference Include="system.codedom" version="4.6.0" />
+    <PackageReference Include="system.configuration.configurationmanager" version="4.6.0" />
+    <PackageReference Include="system.data.sqlclient" version="4.7.0" />
+
+
+    <PackageReference Include="system.identitymodel.tokens.jwt" version="5.5.0" />
+
+    <!-- ref -->
+    <PackageReference Include="system.runtime.caching" version="4.6.0" />
+    <PackageReference Include="system.security.permissions" version="4.6.0" />
+    <PackageReference Include="system.windows.extensions" version="4.6.0" />
+
+    <PackageReference Include="unity.abstractions" version="4.0.0" />
+    <PackageReference Include="unity.configuration" version="5.9.0" />
+    <PackageReference Include="unity.container" version="5.9.0" />
+
+  </ItemGroup>
+</Project>
