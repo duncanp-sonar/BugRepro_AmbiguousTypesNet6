@@ -3,6 +3,8 @@ Repro project for intermittent build error when analysing with Sonar analyzers
 
 See community thread: https://community.sonarsource.com/t/timespan-is-an-ambiguous-reference-between-system-timespan-and-system-timespan/59245/4
 
+NOTE: see the "logs" folder for MSBuild binary logs for failing and non-failing builds.
+
 
 Repro:
 * run a Sonar scanner analysis repeatedly, pushing the results to SonarCloud.
