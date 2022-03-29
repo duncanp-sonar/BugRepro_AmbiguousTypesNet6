@@ -1,0 +1,1 @@
+d:\repos\sq\support\BugRepro_AmbiguousTypesNet6\.sonarqube\out\0
