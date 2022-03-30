@@ -2,9 +2,8 @@ $i = 1
 $failures = 0
 for (;;$i++)
 {
-#	dotnet build-server shutdown
 
-	dotnet build -t:rebuild --no-incremental /p:reportanalyzer=true /v:m -bl:build-$i.binlog
+	msbuild.exe -t:rebuild -nr:false /p:reportanalyzer=true /v:m -bl:build-$i.binlog
 	if( !$? )
 	{
 		$failures++
