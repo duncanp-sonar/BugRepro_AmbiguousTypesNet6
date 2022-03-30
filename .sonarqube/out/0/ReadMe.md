@@ -1,0 +1,1 @@
+# This file is present to prevent git from removing the folder.
